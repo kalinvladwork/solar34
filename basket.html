@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Доставка</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<div class="container wrapper">
+    <div class="header-wrapper">
+        <header>
+            <div class="col-sm-4 logo">
+                <a href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="col-sm-4 col-sm-offset-4 contact hidden-xs">
+                <div class="social">
+                    <a href="#"><img src="img/odnoklasniki.png" alt="odnoklacniki"></a>
+                </div>
+                <div class="address">Волгоградская область <br> Дубовский район <br> с.Пичуга</div>
+                <div class="phone"><a href="tel:+79053932111"></a>+7 (905) 393-21-11</div>
+                <div class="basket">
+                    <input id="basket" type="text">
+                </div>
+            </div>
+        </header>
+
+        <div>
+            <div class="navbar-header visible-xs">
+                <p>Главное меню</p>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="#">Производство</a></li>
+                    <li class="nav-activ"><a href="#">Интернет магазин</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оптовикам</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+
+    </div>
+
+    <div class="wrapper-content">
+
+        <div class="visible-xs">
+            <div class="navbar-header navbar-sidebar visible-xs">
+                <p>Товары</p>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="sidebar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="activ"><a href="#">Интернет-магазин</a></li>
+                    <li><a href="#">Черешня</a></li>
+                    <li><a href="#">Вишня</a></li>
+                    <li><a href="#">Виноград</a></li>
+                    <li><a href="#">Ежевика</a></li>
+                    <li><a href="#">Земляника</a></li>
+                    <li><a href="#">Яблоня</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 sidebar hidden-xs">
+                <ul>
+                    <li class="activ"><a href="#">Интернет-магазин</a></li>
+                    <li><a href="#">Черешня</a></li>
+                    <li><a href="#">Вишня</a></li>
+                    <li><a href="#">Виноград</a></li>
+                    <li><a href="#">Ежевика</a></li>
+                    <li><a href="#">Земляника</a></li>
+                    <li><a href="#">Яблоня</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1 store-wrap content">
+                <div class="caption">
+                    <h2><a href="#">Интернет магазин</a> / <a href="#">Корзина</a> </h2>
+                </div>
+                <div class="content-text basket-wrap">
+                    <div class="basket-max-sum">
+                        Максимальная сумма для розницы - 499 саженцев
+                    </div>
+
+                    <div class="basket-table-wrap">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th class="table-1">Превью</th>
+                                <th class="table-2">Название</th>
+                                <th class="table-1">Количество</th>
+                                <th class="table-1">Цена руб/шт</th>
+                                <th class="table-1">Итого руб</th>
+                                <th class="table-1">Вес, кг</th>
+                                <th class="table-1">Удалить</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img-responsive"src="img/plants/rose.jpg" alt="rose">
+                                </td>
+                                <td>
+                                    <a class="table-name" href="#">Блек Бакарда</a>
+                                    <p class="table-vendor">Артикул: 0001</p>
+                                </td>
+                                <td>
+                                    <input class="table-quantity" type="number">
+                                </td>
+                                <td>
+                                    <span>370</span>
+                                </td>
+                                <td>
+                                    <span>4170</span>
+                                </td>
+                                <td>
+                                    <span>417</span>
+                                </td>
+                                <td>
+                                    <input class="table-del" value="&times;" type="button">
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <hr>
+
+                    <div class="row basket-table-total">
+                        <div class="col-md-5">
+                            <p>какой-то маленький непонятный текст</p>
+                        </div>
+                        <div class="total-payment col-md-4">
+                            Всего к оплате: <span>12999 ₽</span>
+                        </div>
+                        <div class="total-weight col-md-3">
+                            Итого вес: <span>1245 кг</span>
+                        </div>
+                    </div>
+
+                    <form name="basket-form" id="basket-form" action="">
+
+                        <fieldset class="basket-form-delivery-wrap">
+                            <legend>
+                                Шаг 1. Тип доставки
+                            </legend>
+                            <p class="col-md-5">
+                                <input name="supply" type="radio" value="removal" checked>
+                                Самовывоз
+                            </p>
+                            <p class="col-md-5">
+                                <input name="supply" type="radio" value="delivery">
+                                Доставка
+                            </p>
+                        </fieldset>
+
+                        <fieldset class="basket-form-buyer-wrap">
+                            <legend>Шаг 2. Информация о покупателе</legend>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label for="username">Ф.И.О.</label>
+                                    <input required id="username" type="text">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="phone">Телефон</label>
+                                    <input required id="phone" type="text">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="email">E-mail</label>
+                                    <input required id="email" type="email">
+                                </div>
+                            </div>
+                            <div class="row basket-form-buyer-payment display-none">
+                                <div class="col-md-2 ">
+                                    <label for="index">Индекс</label>
+                                    <input required id="index" type="text">
+                                </div>
+                                <div class="col-md-4 col-md-offset-2">
+                                    <label for="region">Регион</label>
+                                    <input required id="region" type="text">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="city">Населенный пункт</label>
+                                    <input required id="city" type="text">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="street">Улица</label>
+                                    <input required id="street" type="text">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="error" for="house">Дом</label>
+                                    <input required class="error" id="house" type="text">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="apartment">Квартира</label>
+                                    <input required id="apartment" type="text">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="basket-form-payment-wrap">
+                            <legend>Шаг 3. Способ оплаты</legend>
+                            <div class="row">
+                                <div class="col-md-12 choice-payment-post-wrap display-none">
+                                    <label for="choice-payment-post">Ваш способ оплаты</label>
+                                    <div class="choice-payment-wrap row">
+                                        <div class="col-md-1">
+                                            <input id="choice-payment-post" type="checkbox">
+                                        </div>
+                                        <img class="col-md-3 img-responsive" src="img/post.jpg" alt="">
+                                        <div class="col-md-8">
+                                            <p class="red-color">Оплата заказа наложенным платежем в отделении России при получении</p>
+                                            <p>Оплату за перевод берет на себя Садовая фирма Виктория</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 choice-payment-your-wrap">
+                                    <label for="choice-payment-your">Ваш способ оплаты</label>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input id="choice-payment-your" type="checkbox">
+                                        </div>
+                                        <p class="col-md-10">Оплата наличными на месте</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <hr class="green">
+
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-8">
+                                <input class="issue" value="Оформить заявку" type="submit">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input[name = 'supply']").change(function() {
+                if (this.value == "removal") {
+                    $('.basket-form-buyer-payment').addClass('display-none');
+                    $('.choice-payment-your-wrap').removeClass('display-none');
+                    $('.choice-payment-post-wrap').addClass('display-none');
+
+                } else if (this.value == "delivery"){
+                    $('.basket-form-payment-wrap').removeClass('display-none');
+                    $('.choice-payment-your-wrap').addClass('display-none');
+                    $('.basket-form-buyer-payment').removeClass('display-none');
+                    $('.choice-payment-post-wrap').removeClass('display-none');
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
